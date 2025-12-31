@@ -1,9 +1,9 @@
 [project]
-site_name = "我的博客"
+site_name = "青玉案"
 site_url = "https://example.com"
-site_description = "我的 Zensical 博客"
+site_description = "千秋岁引"
 site_author = "你的名字"
-copyright = "Copyright &copy; 2025 Wcowin"  
+copyright = "Copyright &copy; 2025 PQ"  
 docs_dir = "docs"
 site_dir = "site"
 use_directory_urls = true            
