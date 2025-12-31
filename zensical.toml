@@ -14,24 +14,49 @@ repo_url = "https://github.com/Origin01p/PQ-s-Note"  # 右上角点击跳转的�
 repo_name = "PQ's Note & Archive"                            # 右上角的名字
 edit_uri = "edit/main/docs"                              # 编辑按钮跳转的链接
 
-# ===== 额外的 JavaScript 文件 =====
-extra_javascript = [
-    #"javascripts/extra.js",                                   # 额外功能脚本
-    # "javascripts/mathjax.js",                                 # MathJax 配置
-    # "https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"       # MathJax CDN
-    "https://unpkg.com/katex@0/dist/katex.min.js",            # 1. 先加载 KaTeX 核心库
-    "https://unpkg.com/katex@0/dist/contrib/auto-render.min.js",  # 2. 再加载自动渲染插件
-    #"javascripts/katex.js"                                     # 3. 最后加载配置文件
+
+# ===== 额外的 CSS 文件 =====
+extra_css = [
+    # "stylesheets/extra.css",         # 额外样式
+    "https://cdn.jsdelivr.net/gh/Wcowin/Wcowin.github.io@main/docs/stylesheets/extra.css", # 额外样式 CDN
+    #"stylesheets/extra2.css",        # 额外样式2
+    # "https://cdn.jsdelivr.net/gh/Wcowin/Wcowin.github.io@main/docs/stylesheets/extra2.css", # 额外样式2CDN
+    # "stylesheets/link.css",          # 友链样式
+    "https://cdn.jsdelivr.net/gh/Wcowin/Wcowin.github.io@main/docs/stylesheets/link.css", #友链CDN
+    # "stylesheets/poem.css",          # 诗词样式
+    "https://cdn.jsdelivr.net/gh/Wcowin/Wcowin.github.io@main/docs/stylesheets/poem.css", # 诗词样式CDN
+    # "stylesheets/customize.css",     # 按钮圆角化等自定义样式
+    # "stylesheets/ziti.css",          # 字体样式
+    # "https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css",  # KaTeX 样式 CDN
+    # "about/sty/portfolio.css"        # 作品集样式（已移至 geren.md 单独引入）
+    # "https://cdn.jsdelivr.net/gh/Wcowin/Wcowin.github.io@main/docs/about/sty/portfolio.css" # 作品集样式CDN
+    "https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"  # KaTeX 样式 CDN
+]
+
+
+
+# ===== 导航配置 [Navigation] =====
+nav = [
+    { "主页" = "index.md" },
+    { "课程" = [
+        { "概率论与统计学" = "blog/class/proba.md" },
+        { "机器学习" = "blog/class/ml.md" },
+    ] },
+    { "随笔" = [
+        { "大学回忆录" = "blog/essay/huiyilu.md" },
+    ] },
+    { "档案" = "archive.md" },
+    { "关于" = "about.md" },
 ]
 
 
 [project.theme]
 variant = "modern"
-# variant = "classic"
+#variant = "classic"
 language = "zh"
 #custom_dir = "docs/overrides"
-#logo = "assets/logo.svg"           # 网站 Logo
-#favicon = "assets/favicon.png"     # 网站图标
+logo = "https://s1.imagehub.cc/images/2025/12/31/04006b62ac83b2aa48f522d2a3248739.th.png"           # 网站 Logo
+favicon = "https://s1.imagehub.cc/images/2025/12/31/0cc106dad67f6c66c3665b95e61adaca.th.png"     # 网站图标
 features = [
     # 导航相关
     "announce.dismiss",           # 可关闭公告栏
@@ -45,7 +70,7 @@ features = [
     "navigation.indexes",         # 章节索引页
     "navigation.instant",      # 即时导航
     "navigation.instant.prefetch",  # 预加载
-
+    
     # 搜索相关
     "search.suggest",             # 搜索建议
     "search.highlight",           # 搜索结果高亮
@@ -60,7 +85,6 @@ features = [
     "content.code.select",        # 代码选择功能
     "content.code.annotate",      # 代码注释功能
 ]
-
 
 # ===== 调色板配置 =====
 # 自动模式（跟随系统）
@@ -88,32 +112,19 @@ toggle = { icon = "material/toggle-switch-off-outline", name = "切换至日间�
 [project.theme.icon]
 repo = "fontawesome/brands/github"          # 仓库图标
 previous = "fontawesome/solid/angle-left"   # 上一页图标
-next = "fontawesome/solid/angle-right"     # 下一页图标
-alternate = "fontawesome/solid/language"   # 语言切换图标
+next = "fontawesome/solid/angle-right"      # 下一页图标
+alternate = "fontawesome/solid/language"    # 语言切换图标
 
-# ===== 博客插件 =====
-[project.plugins.blog]
-post_date_format = "full"                    # 日期格式
-draft = true                                  # 启用草稿
-post_readtime = true                          # 显示阅读时间
-post_readtime_words_per_minute = 265          # 每分钟阅读字数（中文适配）
-post_url_format = "{date}/{slug}"             # 文章 URL 格式
-pagination_per_page = 10                      # 每页显示文章数
-pagination_url_format = "page/{page}"         # 分页 URL 格式
-
-# ===== 搜索插件 =====
-[project.plugins.search]
-separator = '[\s\u200b\-]'  # 搜索分隔符
-lang = ["zh", "en"]        # 支持的语言
-
-
-# ===== 标签插件 =====
-[project.plugins.tags]
-
+# ==========================================
 # 额外配置 [Extra]
 # ==========================================
 [project.extra]
 generator = true
+
+# ===== 状态标签 =====
+[project.extra.status]
+new = "最近添加"
+deprecated = "已弃用"
 
 
 # ===== 社交媒体链接 =====
@@ -132,6 +143,30 @@ name = "Telegram"
 icon = "fontawesome/regular/envelope"
 link = "mailto:wcowin@qq.com"
 name = "Email"
+
+
+# ==========================================
+# 插件配置 [Plugins]
+# ==========================================
+
+# ===== 搜索插件 =====
+[project.plugins.search]
+separator = '[\s\u200b\-]'
+
+# ===== 博客插件 =====
+[project.plugins.blog]
+post_date_format = "full"                    # 时间格式：完整日期
+draft = true                                  # 启用草稿功能
+draft_if_future_date = true                   # 自动将具有未来日期的帖子标记为草稿
+post_readtime = true                          # 显示阅读时间
+post_readtime_words_per_minute = 265          # 每分钟阅读字数（中文适配）
+post_url_format = "{date}/{slug}"             # 文章URL格式
+pagination_per_page = 10                      # 每页显示文章数
+pagination_url_format = "page/{page}"         # 分页URL格式
+
+# ===== 标签插件 =====
+[project.plugins.tags]
+
 
 # ==========================================
 # Markdown 扩展配置 [Markdown Extensions]
@@ -167,6 +202,3 @@ alternate_style = true
 [project.markdown_extensions.pymdownx.tasklist]
 custom_checkbox = true
 [project.markdown_extensions.pymdownx.tilde]
-
-
-
