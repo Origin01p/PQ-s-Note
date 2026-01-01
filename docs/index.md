@@ -1,5 +1,5 @@
 ---
-title: PQ's Blog  
+title: PQ World  
 description: 梦醒人间看微雨，江山还似旧温柔
 hide:
 #   - navigation # 显示右
@@ -19,8 +19,6 @@ hide:
 </div>
  -->
 <!-- 加载 Inter 字体 -->
-
-
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap" rel="stylesheet">
