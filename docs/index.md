@@ -63,7 +63,7 @@ hide:
 
 <!-- 移动端显示的标语 -->
 <div class="mobile-motto">
-  <h1>循此苦旅 以达星辰</h1>
+  <h1>星火世传 奋飞不辍</h1>
 </div>
 
 <style>
@@ -810,7 +810,7 @@ hr {
     - [AI网站](blog/posts/links_ai.md)
     - [一些数学家的博客](blog/posts/links_math.md)
     - [书目汇总](blog/posts/links_book.md)
-    - [参与过的研讨会](trip/InCQ/CQ.md) 
+    - [参与过的项目或研讨会](blog/posts/seminar.md) 
 
 -   :simple-aboutdotme:{ .lg .middle } __关于__
 
