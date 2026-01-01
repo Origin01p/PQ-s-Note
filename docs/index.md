@@ -19,15 +19,18 @@ hide:
 </div>
  -->
 <!-- 加载 Inter 字体 -->
+
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap" rel="stylesheet">
 
 <!-- 在头部添加预加载关键资源 -->
-<link rel="preload" href="https://pic4.zhimg.com/v2-a0456a5f527c1923f096759f2926012f_1440w.jpg" as="image" fetchpriority="high">
-<link rel="preload" href="https://s1.imagehub.cc/images/2025/12/06/28380affd86b014a6dcaf082fcc97064.png" as="image">
+<link rel="preload" href="https://s1.imagehub.cc/images/2025/12/31/04006b62ac83b2aa48f522d2a3248739.th.png"  as="image" fetchpriority="high">
+<link rel="preload" href="https://s1.imagehub.cc/images/2025/12/31/04006b62ac83b2aa48f522d2a3248739.th.png"  as="image">
 <!-- https://picx.zhimg.com/v2-fb22186d2490043435a72876950492f5_1440w.jpg -->
 <!-- wcowin-header.html -->
+
 <div class="wcowin-header-row">
   <!-- 左侧：文字内容 -->
   <div class="wcowin-header-text">
