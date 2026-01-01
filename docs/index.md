@@ -155,7 +155,7 @@ hide:
 }
 
 /* Safari特定修复 */
-/* @media not all and (min-resolution:.001dpcm) {
+ @media not all and (min-resolution:.001dpcm) {
   @supports (-webkit-appearance:none) {
     .wcowin-header-subtitle-inner {
       display: inline-block;
@@ -163,7 +163,7 @@ hide:
       min-width: 280px; 
     }
   }
-} */
+} 
 
 
 
@@ -515,22 +515,23 @@ hide:
   // 多语言文字列表
   const phrasesData = {
     chinese_simplified: [
-      "A college student",
-      "A developer",
-      "A dreamer",
-      "循此苦旅 以达星辰"
+    //  "A college student",
+      //"A developer",
+      //"A dreamer",
+      "循此苦旅 以抵繁星",
+      //"梦醒人间看微雨，江山还似旧温柔"
     ],
     english: [
-      "A college student",
-      "A developer",
-      "A dreamer",
-      "Through hardship to the stars"
+    //  "A college student",
+     //"A developer",
+     // "A dreamer",
+      "Per aspera ad astra"
     ],
     japanese: [
-      "A college student",
-      "A developer",
-      "A dreamer",
-      "苦難を経て星へ"
+    // "A college student",
+     // "A developer",
+      //"A dreamer",
+     // "苦難を経て星へ"
     ]
   };
   
@@ -752,7 +753,7 @@ hr {
 -   :material-notebook-edit-outline:{ .lg .middle } __导航栏__
 
     ---
-    ![image](https://pic1.zhimg.com/80/v2-b9ae6898d33359da6be815bf60626af2_1440w.webp?source=2c26e567){ class="responsive-image" loading="lazy" align=right width="340" height="226" style="border-radius: 2.5em 1.5em 3em 2em / 2em 2.5em 1.5em 3em;" }
+    ![image](https://s1.imagehub.cc/images/2026/01/01/d2f15ad93e6418667fdc6dfeb8080eb7.jpg){ class="responsive-image" loading="lazy" align=right width="340" height="226" style="border-radius: 2.5em 1.5em 3em 2em / 2em 2.5em 1.5em 3em;" }
 
     - [x] 通过<mark>目录</mark>以打开文章
     - [x] 搜索<ins>关键词</ins>查询文章
@@ -784,32 +785,31 @@ hr {
 
 -   :octicons-bookmark-16:{ .lg .middle } __推荐的文章__
 
-    ---
+    <!-- ---
     - [macOS 开发经验分享](develop/Mac-development/index.md){ data-preview }(最新更新)
     - [模型上下文协议(MCP)简述](develop/AI/mcp.md)
     - [DeepSeek:从入门到精通](develop/deepseek.md)
     - [将Python文件打包成.exe可执行程序](blog/py/python.md)
-    - [Homebrew如何安装(Mac & Linux)](blog/Mac/homebrew.md)
+    - [Homebrew如何安装(Mac & Linux)](blog/Mac/homebrew.md) -->
 
--   :simple-materialformkdocs:{ .lg .middle } __Mkdocs/Zensical教程(三步搞定)__
-
-    ---
-
-    - [Mkdocs前言](blog/Mkdocs/mkfirst.md)
-    - [利用Mkdocs部署静态网页](blog/Mkdocs/mkdocs1.md)
-    - [Mkdocs配置说明](blog/Mkdocs/mkdocs2.md)
-    - [如何给MKdocs添加友链](blog/Mkdocs/linktech.md)
-    ---
-    - [Zensical教程](blog/Zensical/indexfirst.md)(新)
-
--   :material-format-font:{ .lg .middle } __好用/好玩__
+-   :simple-materialformkdocs:{ .lg .middle } __一些课程__
 
     ---
 
-    - [AI网站分享](develop/AI.md)
-    - [好用/好玩网站分享](blog/Webplay.md)
-    - [Mac/windows软件网站汇总](blog/macsoft.md)
-    - [重庆旅游推荐路线](trip/InCQ/CQ.md)
+    - [概率论与统计](blog/Mkdocs/mkfirst.md)
+    - [实变函数与泛函分析](blog/Mkdocs/mkdocs1.md)
+    - [复变函数](blog/Mkdocs/mkdocs2.md)
+    ---
+    - [机器学习](blog/Zensical/indexfirst.md)(新) -->
+
+-   :material-format-font:{ .lg .middle } __整理/汇总__
+
+    ---
+
+    - [AI网站](develop/AI.md)
+    - [一些数学家的博客](blog/Webplay.md)
+    - [书目汇总](blog/macsoft.md)
+    - [参与过的研讨会](trip/InCQ/CQ.md) 
 
 -   :simple-aboutdotme:{ .lg .middle } __关于__
 
@@ -817,14 +817,14 @@ hr {
 
     - [留言板](waline.md)[^Knowing-that-loving-you-has-no-ending]
     - [博客](blog/index.md)
-    - [:octicons-arrow-right-24: 了解我](about/geren/#_4){ data-preview }
+    - [:octicons-arrow-right-24: 关于我](about/geren/#_4){ data-preview }
     - [支持作者](about/zcw/#alipay){ data-preview }
 </div>
 
 
 
-[^Knowing-that-loving-you-has-no-ending]:太阳总是能温暖向日葵
-[^see-how-much-I-love-you]:All-problems-in-computer-science-can-be-solved-by-another-level-of-indirection
+[^Knowing-that-loving-you-has-no-ending]:梦醒人间看微雨，江山还似旧温柔
+<!-- [^see-how-much-I-love-you]:All-problems-in-computer-science-can-be-solved-by-another-level-of-indirection -->
 
 
 
