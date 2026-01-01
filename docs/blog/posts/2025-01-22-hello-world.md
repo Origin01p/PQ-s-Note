@@ -5,11 +5,12 @@ authors:
   - name: 你的名字
     email: your@email.com
 categories:
-  - 技术
+  - analysis
+  - algebra
   - Python
 tags:
-  - Zensical
-  - 教程
+  - 数学
+  - 机器学习
 ---
 
 # 我的第一篇博客
