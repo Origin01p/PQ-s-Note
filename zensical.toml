@@ -1,7 +1,7 @@
 [project]
-site_name = "青玉案"
+site_name = "千秋令"
 site_url = "https://origin01p.github.io/PQ-s-Note/"
-site_description = "千秋岁引"
+site_description = "梦醒人间看微雨，江山还似旧温柔"
 site_author = "你的名字"
 copyright = "Copyright &copy; 2025 PQ"  
 docs_dir = "docs"
@@ -50,7 +50,12 @@ nav = [
     { "随笔" = [
         { "大学回忆录" = "blog/essay/huiyilu.md" },
     ] },
-    { "档案" = "archive.md" },
+    { "档案" = [
+        # "techhelp.md",
+        "archive.md",
+        {"AI与数据科学" = "blog/posts/links_ai.md"},
+        {"数学相关链接" = "blog/posts/links_math.md"}
+    ]},
     { "关于" = "about.md" },
 ]
 
@@ -136,17 +141,17 @@ deprecated = "已弃用"
 # 显示在页脚的社交媒体图标
 [[project.extra.social]]
 icon = "fontawesome/brands/github"
-link = "https://github.com/Wcowin/Zensical-Chinese-Tutorial"
+link = "https://github.com/Origin01p/PQ-s-Note"
 name = "GitHub"
 
 [[project.extra.social]]
 icon = "fontawesome/brands/telegram"
-link = "https://t.me/Wcowin"
+link = "https://t.me/"
 name = "Telegram"
 
 [[project.extra.social]]
 icon = "fontawesome/regular/envelope"
-link = "mailto:wcowin@qq.com"
+link = "mailto:origin01p@outlook.com"
 name = "Email"
 
 
