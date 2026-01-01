@@ -39,8 +39,13 @@ extra_css = [
 nav = [
     { "主页" = "index.md" },
     { "课程" = [
-        { "概率论与统计学" = "blog/class/proba.md" },
-        { "机器学习" = "blog/class/ml.md" },
+        { "概率论与统计学" = [
+            { "绪论" = "blog/class/pb_intro.md" },
+            { "问题汇总" = "blog/class/pb_question.md" },
+        ]}, 
+        { "机器学习" = [
+            { "绪论" = "blog/class/ml_intro.md" },
+        ]},
     ] },
     { "随笔" = [
         { "大学回忆录" = "blog/essay/huiyilu.md" },
