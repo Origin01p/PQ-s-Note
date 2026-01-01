@@ -797,11 +797,11 @@ hr {
 
     ---
 
-    - [概率论与统计](blog/Mkdocs/mkfirst.md)
+    - [概率论与统计](blog/class/pb_intro.md)
     - [实变函数与泛函分析](blog/Mkdocs/mkdocs1.md)
     - [复变函数](blog/Mkdocs/mkdocs2.md)
     ---
-    - [机器学习](blog/Zensical/indexfirst.md)(新) -->
+    - [机器学习](blog/class/ml_intro.md)(新) -->
 
 -   :material-format-font:{ .lg .middle } __整理/汇总__
 
@@ -820,7 +820,6 @@ hr {
     - [博客](index.md)
     - [:octicons-arrow-right-24: 关于我](about.md){ data-preview }
 </div>
-
 
 
 [^Knowing-that-loving-you-has-no-ending]:梦醒人间看微雨，江山还似旧温柔

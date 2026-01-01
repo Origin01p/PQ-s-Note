@@ -44,7 +44,7 @@ nav = [
             { "问题汇总" = "blog/class/pb_question.md" },
         ]}, 
         { "机器学习" = [
-            { "绪论" = "blog/class/ml_intro.md" },
+            { "前言" = "blog/class/ml_intro.md" },
         ]},
     ] },
     { "随笔" = [
