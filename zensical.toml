@@ -54,6 +54,7 @@ nav = [
         { "机器学习" = [
             { "前言" = "blog/class/ml_intro.md" },
             { "随机森林" = "blog/class/ml_rf.md" },
+            { "梯度提升决策树" = "blog/class/ml_gbdt.md" },
         ]},
     ] },
     { "随笔" = [
