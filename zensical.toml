@@ -53,6 +53,7 @@ nav = [
         ]}, 
         { "机器学习" = [
             { "前言" = "blog/class/ml_intro.md" },
+            { "随机森林" = "blog/class/ml_rf.md" },
         ]},
     ] },
     { "随笔" = [
