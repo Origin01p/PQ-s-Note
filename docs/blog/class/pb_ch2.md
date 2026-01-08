@@ -80,7 +80,7 @@ $$
 
 ### 泊松分布 $X \sim P(\lambda)$
 
-- 描述稀有时间在单位时间内发生次数
+- 描述稀有事件在单位时间内发生次数
 - 公式$P(X=k)=\frac{\lambda^k e^{-\lambda}}{k!}$
 - 期望与方差：$E(X)=\lambda,\quad Var(X)=\lambda$
 
@@ -109,15 +109,17 @@ $$
 - 自然界最常见的分布，描述受众多独立微小因素影响的变量。
 - 由均值 $\mu$ 和方差 $\sigma^2$决定，又称高斯分布
 - 公式：
-$$f(x|\mu, \sigma^2) = \frac{1}{\sqrt{2\pi\sigma^2}} e^{-\frac{(x-\mu)^2}{2\sigma^2}}$$
+$$
+f(x|\mu, \sigma^2) = \frac{1}{\sqrt{2\pi\sigma^2}} e^{-\frac{(x-\mu)^2}{2\sigma^2}}
+$$
+
 - $\hat{\mu} = \bar{x}$（样本均值），$\hat{\sigma}^2 = \frac{1}{n}\sum(x_i - \bar{x})^2$（样本偏方差）
 
 ### 均匀分布 $X \sim U(a, b)$
 
 - 在区间 $[a, b]$ 内，每个数值出现的可能性相等。
-- 公式 ：
-$$f(x|a, b) = \frac{1}{b-a}, \quad a \le x \le b$$
-  - 期望与方差：$E(X)=\frac{a+b}{2},\quad Var(X)=\frac{(b-a)^2}{12}$
+- 公式 ：$f(x|a, b) = \frac{1}{b-a}, \quad a \le x \le b$
+- 期望与方差：$E(X)=\frac{a+b}{2},\quad Var(X)=\frac{(b-a)^2}{12}$
 
 
 ### 指数分布 $X \sim \text{Exp}(\lambda)$
@@ -151,7 +153,9 @@ $$f(x|a, b) = \frac{1}{b-a}, \quad a \le x \le b$$
 
 - 是 k 个独立标准正态随机变量的平方和所服从的分布，其中k为自由度。
 - 概率密度函数：  
-$$f(x)=\frac{1}{2^{k/2}\Gamma(k/2)}x^{k/2-1}e^{-x/2},\quad x>0$$
+$$
+f(x)=\frac{1}{2^{k/2}\Gamma(k/2)}x^{k/2-1}e^{-x/2},\quad x>0
+$$
 
 - 期望与方差  ：$E(X)=k,\quad Var(X)=2k$
 - 分布始终在正轴上。
