@@ -49,6 +49,7 @@ nav = [
         { "概率论与统计学" = [
             { "绪论" = "blog/class/pb_intro.md" },
             { "第1章 随机事件与概率" = "blog/class/pb_ch1.md" },
+            { "第2章 随机变量及其分布" = "blog/class/pb_ch2.md" },
             { "问题汇总" = "blog/class/pb_question.md" },
         ]}, 
         { "机器学习" = [
