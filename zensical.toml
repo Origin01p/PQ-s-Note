@@ -17,8 +17,8 @@ edit_uri = "edit/main/docs"                              # 编辑按钮跳转的
 
 # ===== 额外的 CSS 文件 =====
 extra_css = [
-    "stylesheets/extra.css",
-    "https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css",  # 霞鹜文楷
+    #"stylesheets/extra.css",
+    #"https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css",  # 霞鹜文楷
 
     # "stylesheets/extra.css",         # 额外样式
     "https://cdn.jsdelivr.net/gh/Wcowin/Wcowin.github.io@main/docs/stylesheets/extra.css", # 额外样式 CDN
@@ -35,7 +35,6 @@ extra_css = [
     # "https://cdn.jsdelivr.net/gh/Wcowin/Wcowin.github.io@main/docs/about/sty/portfolio.css" # 作品集样式CDN
     "https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"  # KaTeX 样式 CDN
 ]
-
 
 extra_javascript = [
    # "javascripts/mathjax.js",
