@@ -7,14 +7,6 @@ copyright = "Copyright &copy; 2025 PQ"
 docs_dir = "docs"
 site_dir = "site"
 use_directory_urls = true            
-extra_javascript = [
-   # "javascripts/mathjax.js",
-    #"https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"
-
-    "javascripts/katex.js",
-    "https://unpkg.com/katex@0/dist/katex.min.js",
-    "https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"
-]
 
 
 # ===== 仓库配置 =====
@@ -25,6 +17,9 @@ edit_uri = "edit/main/docs"                              # 编辑按钮跳转的
 
 # ===== 额外的 CSS 文件 =====
 extra_css = [
+    "stylesheets/extra.css",
+    "https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css",  # 霞鹜文楷
+
     # "stylesheets/extra.css",         # 额外样式
     "https://cdn.jsdelivr.net/gh/Wcowin/Wcowin.github.io@main/docs/stylesheets/extra.css", # 额外样式 CDN
     #"stylesheets/extra2.css",        # 额外样式2
@@ -39,6 +34,16 @@ extra_css = [
     # "about/sty/portfolio.css"        # 作品集样式（已移至 geren.md 单独引入）
     # "https://cdn.jsdelivr.net/gh/Wcowin/Wcowin.github.io@main/docs/about/sty/portfolio.css" # 作品集样式CDN
     "https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"  # KaTeX 样式 CDN
+]
+
+
+extra_javascript = [
+   # "javascripts/mathjax.js",
+    #"https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"
+
+    "javascripts/katex.js",
+    "https://unpkg.com/katex@0/dist/katex.min.js",
+    "https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"
 ]
 
 
