@@ -50,6 +50,9 @@ nav = [
             { "绪论" = "blog/class/pb_intro.md" },
             { "第1章 随机事件与概率" = "blog/class/pb_ch1.md" },
             { "第2章 随机变量及其分布" = "blog/class/pb_ch2.md" },
+            { "第3章 多维随机变量及其分布" = "blog/class/pb_ch3.md" },
+            { "第4章 大数定律与中心极限定理" = "blog/class/pb_ch4.md" },
+            { "第5章 统计量及其分布" = "blog/class/pb_ch5.md" },
             { "问题汇总" = "blog/class/pb_question.md" },
         ]}, 
         { "机器学习" = [
