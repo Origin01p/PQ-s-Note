@@ -1625,15 +1625,13 @@ $$</p>
 <ul>
 <li>自然界最常见的分布，描述受众多独立微小因素影响的变量。</li>
 <li>由均值 <span class="arithmatex">\(\mu\)</span> 和方差 <span class="arithmatex">\(\sigma^2\)</span>决定，又称高斯分布</li>
-<li>
-<p>公式：
-$$
-f(x|\mu, \sigma^2) = \frac{1}{\sqrt{2\pi\sigma^2}} e<sup>{-\frac{(x-\mu)</sup>2}{2\sigma^2}}
-$$</p>
-</li>
-<li>
-<p><span class="arithmatex">\(\hat{\mu} = \bar{x}\)</span>（样本均值），<span class="arithmatex">\(\hat{\sigma}^2 = \frac{1}{n}\sum(x_i - \bar{x})^2\)</span>（样本偏方差）</p>
-</li>
+<li>公式：</li>
+</ul>
+<div class="arithmatex">\[
+f(x|\mu, \sigma^2) = \frac{1}{\sqrt{2\pi\sigma^2}} e^{-\frac{(x-\mu)^2}{2\sigma^2}}
+\]</div>
+<ul>
+<li><span class="arithmatex">\(\hat{\mu} = \bar{x}\)</span>（样本均值），<span class="arithmatex">\(\hat{\sigma}^2 = \frac{1}{n}\sum(x_i - \bar{x})^2\)</span>（样本偏方差）</li>
 </ul>
 <h3 id="x-sim-ua-b">均匀分布 <span class="arithmatex">\(X \sim U(a, b)\)</span><a class="headerlink" href="#x-sim-ua-b" title="Permanent link">&para;</a></h3>
 <ul>
@@ -1668,15 +1666,13 @@ $$</p>
 <h3 id="x-sim-chi2n">卡方分布 <span class="arithmatex">\(X \sim \chi^2(n)\)</span><a class="headerlink" href="#x-sim-chi2n" title="Permanent link">&para;</a></h3>
 <ul>
 <li>是 k 个独立标准正态随机变量的平方和所服从的分布，其中k为自由度。</li>
-<li>
-<p>概率密度函数：<br />
-$$
-f(x)=\frac{1}{2<sup k_2-1="k/2-1">{k/2}\Gamma(k/2)}x</sup>,\quad x&gt;0
-$$}e^{-x/2</p>
-</li>
-<li>
-<p>期望与方差  ：<span class="arithmatex">\(E(X)=k,\quad Var(X)=2k\)</span></p>
-</li>
+<li>概率密度函数：</li>
+</ul>
+<div class="arithmatex">\[
+f(x)=\frac{1}{2^{k/2}\Gamma(k/2)}x^{k/2-1}e^{-x/2},\quad x&gt;0
+\]</div>
+<ul>
+<li>期望与方差  ：<span class="arithmatex">\(E(X)=k,\quad Var(X)=2k\)</span></li>
 <li>分布始终在正轴上。</li>
 <li>随着自由度 <span class="arithmatex">\(n\)</span> 的增大，分布逐渐趋近于正态分布。</li>
 <li>用于检验方差</li>
