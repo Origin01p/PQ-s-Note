@@ -120,7 +120,7 @@ features = [
 # 自动模式（跟随系统）
 [[project.theme.palette]]
 media = "(prefers-color-scheme)"
-toggle = { icon = "material/link", name = "关闭自动模式" }
+toggle = { icon = "lucide/sun-moon", name = "关闭自动模式" }
 
 # 日间模式
 [[project.theme.palette]]
@@ -128,7 +128,7 @@ media = "(prefers-color-scheme: light)"
 scheme = "default"                # 日间模式配色
 primary = "indigo"                # 主色调
 accent = "indigo"                 # 强调色
-toggle = { icon = "material/toggle-switch", name = "切换至夜间模式" }
+toggle = { icon = "lucide/sun", name = "切换至夜间模式" }
 
 # 夜间模式
 [[project.theme.palette]]
@@ -136,7 +136,7 @@ media = "(prefers-color-scheme: dark)"
 scheme = "slate"                  # 夜间模式配色
 primary = "indigo"                # 主色调
 accent = "indigo"                 # 强调色
-toggle = { icon = "material/toggle-switch-off-outline", name = "切换至日间模式" }
+toggle = { icon = "lucide/moon", name = "切换至日间模式" }
 
 # ===== 图标配置 =====
 [project.theme.icon]
