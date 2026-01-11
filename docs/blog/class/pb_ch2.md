@@ -99,7 +99,10 @@ $$
 
 - 期望与方差：  
 $$
-  E(X)=n\cdot\frac{M}{N},\quad Var(X)=n\cdot\frac{M}{N}\cdot\left(1-\frac{M}{N}\right)\cdot\frac{N-n}{N-1}
+  E(X)=n\cdot\frac{M}{N}
+$$ 
+$$
+Var(X)=n\cdot\frac{M}{N}\cdot\left(1-\frac{M}{N}\right)\cdot\frac{N-n}{N-1}
 $$
 
 ## 5. 常用的几种分布（连续）
