@@ -59,12 +59,14 @@ nav = [
             { "第5章 统计量及其分布" = "blog/class/pb_ch5.md" },
             { "问题汇总" = "blog/class/pb_question.md" },
         ]}, 
-        { "机器学习" = [
-            { "前言" = "blog/class/ml_intro.md" },
-            { "岭回归" = "blog/class/ml_ridge.md" },
-            { "随机森林" = "blog/class/ml_rf.md" },
-            { "梯度提升决策树" = "blog/class/ml_gbdt.md" },
-            {" XGBoost" = "blog/class/ml_xgboost.md" },
+        { "统计学习" = [
+            { "导论" = "blog/class/ml_intro.md" },
+            { "线性回归" = "blog/class/ml_linear.md" },
+            { "逻辑回归" = "blog/class/ml_lr.md" },
+        ]},
+        { "神经网络" = [
+            { "导论" = "blog/class/dl_intro.md" },
+            { "激活函数"="blog/class/dl_jihuo.md" },
         ]},
     ] },
     { "随笔" = [

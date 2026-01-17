@@ -12,7 +12,7 @@
         <meta name="author" content="你的名字">
       
       
-        <link rel="canonical" href="http://pqworld.space/blog/class/ml_gbdt/">
+        <link rel="canonical" href="http://pqworld.space/blog/class/pb_ch6/">
       
       
       
@@ -25,7 +25,7 @@
     
     
       
-        <title>梯度提升决策树 - 千秋令</title>
+        <title>Pb ch6 - 千秋令</title>
       
     
     
@@ -117,11 +117,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#gbdt" class="md-skip">
-          跳转至
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -151,7 +146,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              梯度提升决策树
+              Pb ch6
             
           </span>
         </div>
@@ -639,27 +634,6 @@
   
   
   
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目录
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        重要参数
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -677,21 +651,9 @@
   
 
 
-<h1 id="gbdt">GBDT<a class="headerlink" href="#gbdt" title="Permanent link">&para;</a></h1>
-<ul>
-<li>归属：集成学习中的Boosting。（进阶也是常用：XGboost）</li>
-<li>过程：利用多个决策树（通常是CART树）逐步拟合数据，新加入的树在前一棵树的残差基础上学习。</li>
-<li>核心思想：梯度下降。将损失函数的负梯度作为残差的近似，从而序列化构建每一颗决策树，将所有树的预测结果加权得到集成模型。</li>
-<li>优点：可解释性强、预测精度高</li>
-<li>缺点：计算复杂度高、串行生成故并行难</li>
-</ul>
-<h2 id="_1">重要参数<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
-<ul>
-<li>n_estimators：树的数量（迭代次数），太少会欠拟合，太多会过拟合且计算慢。通常配合早停法使用。</li>
-<li>learning_rate：学习率（每棵树的贡献权重）。</li>
-<li>max_depth：树的最大深度。</li>
-<li>max<em>leaf</em>nodes：最大叶节点数。</li>
-</ul>
+  <h1>Pb ch6</h1>
+
+<p>aaaaaaaaaa</p>
 
 
 
@@ -700,9 +662,6 @@
 
 
 
-
-  
-  
 
 
 
