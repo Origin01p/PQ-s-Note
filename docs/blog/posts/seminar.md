@@ -26,4 +26,4 @@ title: Seminar & Project
 
 - [银行客户认购产品预测](../project/yinhang1.pdf) &&  [(题目)](https://tianchi.aliyun.com/competition/entrance/231522/information)
 
-- [金融风险预测学习赛](../project/金融风险预测.pdf) &&  [(题目)](https://tianchi.aliyun.com/competition/entrance/531830/information)
+- [金融风险预测学习赛](../project/金融风险预测.html) &&  [(题目)](https://tianchi.aliyun.com/competition/entrance/531830/information)

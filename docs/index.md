@@ -813,7 +813,7 @@ hr {
     - [书目汇总](blog/posts/links_book.md)
     - [参与过的项目或研讨会](blog/posts/seminar.md) 
 
--   :simple-aboutdotme:{ .lg .middle } __关于__
+-   :material-account-box-outline:{ .lg .middle } __关于__
 
     ---
 
