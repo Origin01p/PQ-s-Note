@@ -4,12 +4,20 @@ https://chinese-font.netlify.app/zh-cn/fonts/hwmct/汇文明朝体
 */
 
 /* 新方案：使用 jsDelivr CDN 的智能分包版本，只加载页面实际使用的汉字 */
-@import url('https://cdn.jsdelivr.net/npm/@callmebill/lxgw-wenkai-web@latest/style.css');
+/* @import url('https://cdn.jsdelivr.net/npm/@callmebill/lxgw-wenkai-web@latest/style.css');
 
 body {
   font-family: "LXGW WenKai", sans-serif;
   font-weight: normal;
-}
+} */
+
+/* 霞鹜文楷屏幕版*/
+/* 
+@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css');
+body {
+    font-family: "LXGW WenKai Screen";
+    font-weight: normal;
+} */
 
 
 /* @import url('https://fontsapi.zeoseven.com/292/main/result.css');
@@ -30,11 +38,11 @@ body {
     font-family: "LXGW WenKai Screen";
 } */
 
-/* @import url("https://fontsapi.zeoseven.com/3/main/result.css");
+@import url("https://fontsapi.zeoseven.com/3/main/result.css");
 body {
     font-family: "寒蝉全圆体";
     font-weight: normal;
-} */
+}
 
 /* 寒蝉正楷体 */
 /* @import url("https://fontsapi.zeoseven.com/5/main/result.css");
@@ -68,7 +76,6 @@ button.md-top {
     font-size: 16px;
     font-weight: lighter;
 } 
-
 
 
 /* @import url("https://fontsapi.zeoseven.com/256/main/result.css");
