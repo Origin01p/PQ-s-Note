@@ -83,7 +83,7 @@ language = "zh"
 #custom_dir = "docs/overrides"
 logo = "https://s1.imagehub.cc/images/2025/12/31/04006b62ac83b2aa48f522d2a3248739.th.png"           # 网站 Logo
 favicon = "https://s1.imagehub.cc/images/2025/12/31/0cc106dad67f6c66c3665b95e61adaca.th.png"     # 网站图标
-font.code = "JetBrains Mono"  
+font.code = "JetBrains Mono"                     # 代码字体
 
 features = [
     "announce.dismiss",           # 可关闭公告栏
