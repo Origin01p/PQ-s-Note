@@ -4,10 +4,16 @@
         <loc>http://pqworld.space/</loc>
       </url>
       <url>
+        <loc>http://pqworld.space/blog/class/demo/</loc>
+      </url>
+      <url>
         <loc>http://pqworld.space/blog/class/pb_intro/</loc>
       </url>
       <url>
         <loc>http://pqworld.space/blog/class/pb_ch1/</loc>
+      </url>
+      <url>
+        <loc>http://pqworld.space/blog/class/pb_ch5/</loc>
       </url>
       <url>
         <loc>http://pqworld.space/blog/class/pb_ch2/</loc>
@@ -17,9 +23,6 @@
       </url>
       <url>
         <loc>http://pqworld.space/blog/class/pb_ch4/</loc>
-      </url>
-      <url>
-        <loc>http://pqworld.space/blog/class/pb_ch5/</loc>
       </url>
       <url>
         <loc>http://pqworld.space/blog/class/pb_question/</loc>

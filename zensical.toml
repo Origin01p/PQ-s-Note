@@ -1,65 +1,59 @@
 [project]
-site_name = "千秋令"
+site_name = "千秋"
 site_url = "http://pqworld.space"
 site_description = "梦醒人间看微雨，江山还似旧温柔"
-site_author = "你的名字"
+site_author = "PQ"
 copyright = "Copyright &copy; 2025 PQ"  
 docs_dir = "docs"
 site_dir = "site"
 use_directory_urls = true            
 
+# 仓库
+repo_url = "https://github.com/Origin01p/PQ-s-Note"  
+repo_name = "PQ's Note & Archive"                            
+edit_uri = "edit/main/docs"                            
 
-# ===== 仓库配置 =====
-repo_url = "https://github.com/Origin01p/PQ-s-Note"  # 右上角点击跳转的链接
-repo_name = "PQ's Note & Archive"                            # 右上角的名字
-edit_uri = "edit/main/docs"                              # 编辑按钮跳转的链接
 
-
-# ===== 额外的 CSS 文件 =====
+# 额外CSS和JS
 extra_css = [
-    #"stylesheets/extra.css",
-    #"https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css",  # 霞鹜文楷
-
-    # "stylesheets/extra.css",         # 额外样式
-    "https://cdn.jsdelivr.net/gh/Wcowin/Wcowin.github.io@main/docs/stylesheets/extra.css", # 额外样式 CDN
-    #"stylesheets/extra2.css",        # 额外样式2
-    # "https://cdn.jsdelivr.net/gh/Wcowin/Wcowin.github.io@main/docs/stylesheets/extra2.css", # 额外样式2CDN
-    # "stylesheets/link.css",          # 友链样式
-    "https://cdn.jsdelivr.net/gh/Wcowin/Wcowin.github.io@main/docs/stylesheets/link.css", #友链CDN
-    # "stylesheets/poem.css",          # 诗词样式
-    "https://cdn.jsdelivr.net/gh/Wcowin/Wcowin.github.io@main/docs/stylesheets/poem.css", # 诗词样式CDN
-    # "stylesheets/customize.css",     # 按钮圆角化等自定义样式
-    # "stylesheets/ziti.css",          # 字体样式
-    # "https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css",  # KaTeX 样式 CDN
-    # "about/sty/portfolio.css"        # 作品集样式（已移至 geren.md 单独引入）
-    # "https://cdn.jsdelivr.net/gh/Wcowin/Wcowin.github.io@main/docs/about/sty/portfolio.css" # 作品集样式CDN
+    "stylesheets/extra.css",
+    "stylesheets/extra2.css",
+    "stylesheets/link.css",
+    "stylesheets/ziti.css",
     "https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"  # KaTeX 样式 CDN
 ]
 
 extra_javascript = [
-   # "javascripts/mathjax.js",
-    #"https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"
-
-    "javascripts/katex.js",
+    "javascripts/extra.js",   
+    # "javascripts/mathjax.js",
+    # "https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js"
     "https://unpkg.com/katex@0/dist/katex.min.js",
-    "https://unpkg.com/katex@0/dist/contrib/auto-render.min.js"
+    "https://unpkg.com/katex@0/dist/contrib/auto-render.min.js",
+    "javascripts/katex.js"
 ]
 
-
-# ===== 导航配置 [Navigation] =====
+# 导航
 nav = [
     { "主页" = "index.md" },
     { "课程" = [
-        { "概率论与统计学" = [
+        { "目录" = "blog/class/demo.md" },
+        { "概率与统计" = [
             { "绪论" = "blog/class/pb_intro.md" },
-            { "第1章 随机事件与概率" = "blog/class/pb_ch1.md" },
-            { "第2章 随机变量及其分布" = "blog/class/pb_ch2.md" },
-            { "第3章 多维随机变量及其分布" = "blog/class/pb_ch3.md" },
-            { "第4章 大数定律与中心极限定理" = "blog/class/pb_ch4.md" },
-            { "第5章 统计量及其分布" = "blog/class/pb_ch5.md" },
+            { "概率论篇" = [
+                { "1.随机事件与概率" = "blog/class/pb_ch1.md" },
+                { "2.随机变量及其分布" = "blog/class/pb_ch2.md" },
+                { "3.多维随机变量及其分布" = "blog/class/pb_ch3.md" },
+                { "4.大数定律与中心极限定理" = "blog/class/pb_ch4.md" },
+                { "5.统计量及其分布" = "blog/class/pb_ch5.md" },
+            ]},
+            { "统计学篇" = [
+                { "描述统计" = "blog/class/pb_ch2.md" },
+                { "抽样分布与参数估计" = "blog/class/pb_ch3.md" },
+                { "假设检验" = "blog/class/pb_ch4.md" },
+            ]},
             { "问题汇总" = "blog/class/pb_question.md" },
-        ]}, 
-        { "统计学习" = [
+        ]},
+        { "统计机器学习" = [
             { "导论" = "blog/class/ml_intro.md" },
             { "线性回归" = "blog/class/ml_linear.md" },
             { "逻辑回归" = "blog/class/ml_lr.md" },
@@ -81,7 +75,7 @@ nav = [
     { "关于" = "about.md" },
 ]
 
-
+# 主题配置
 [project.theme]
 variant = "modern"
 #variant = "classic"
@@ -89,8 +83,9 @@ language = "zh"
 #custom_dir = "docs/overrides"
 logo = "https://s1.imagehub.cc/images/2025/12/31/04006b62ac83b2aa48f522d2a3248739.th.png"           # 网站 Logo
 favicon = "https://s1.imagehub.cc/images/2025/12/31/0cc106dad67f6c66c3665b95e61adaca.th.png"     # 网站图标
+font.code = "JetBrains Mono"  
+
 features = [
-    # 导航相关
     "announce.dismiss",           # 可关闭公告栏
     "navigation.prune",           # 只渲染可见导航项
     "navigation.tracking",        # 滚动时URL锚点自动更新
@@ -98,27 +93,25 @@ features = [
     "navigation.sections",        # 侧边栏分组
     "navigation.top",             # 返回顶部按钮
     "navigation.footer",          # 上一页/下一页导航
-    "navigation.expand",          # 默认展开导航
-    "navigation.indexes",         # 章节索引页
     "navigation.instant",      # 即时导航
+    "navigation.instant.progress",
     "navigation.instant.prefetch",  # 预加载
-    
-    # 搜索相关
+    "navigation.path",            # URL路径导航
+    # "navigation.tabs.sticky",   # 顶部导航栏始终可见
     "search.suggest",             # 搜索建议
     "search.highlight",           # 搜索结果高亮
     "search.share",               # 搜索结果分享
-    
-    # 目录相关
     "toc.follow",                 # 目录跟随滚动
-    
-    # 内容相关
+    "navigation.expand",          # 默认展开导航
+    "navigation.indexes",         # 章节索引页
+    "content.tabs.link",          # 内容标签页链接
     "content.tooltips",           # 内容提示框
     "content.code.copy",          # 代码复制按钮
     "content.code.select",        # 代码选择功能
-    "content.code.annotate",      # 代码注释功能
+    "content.code.annotate"       # 代码注释功能
 ]
 
-# ===== 调色板配置 =====
+# 日夜模式
 # 自动模式（跟随系统）
 [[project.theme.palette]]
 media = "(prefers-color-scheme)"
@@ -140,12 +133,14 @@ primary = "indigo"                # 主色调
 accent = "indigo"                 # 强调色
 toggle = { icon = "lucide/moon", name = "切换至日间模式" }
 
-# ===== 图标配置 =====
+# 图标配置
 [project.theme.icon]
 repo = "fontawesome/brands/github"          # 仓库图标
 previous = "fontawesome/solid/angle-left"   # 上一页图标
 next = "fontawesome/solid/angle-right"      # 下一页图标
 alternate = "fontawesome/solid/language"    # 语言切换图标
+
+
 
 # ==========================================
 # 额外配置 [Extra]
@@ -187,7 +182,7 @@ separator = '[\s\u200b\-]'
 
 # ===== 博客插件 =====
 [project.plugins.blog]
-post_date_format = "full"                    # 时间格式：完整日期
+post_date_format = "full"                     # 时间格式：完整日期
 draft = true                                  # 启用草稿功能
 draft_if_future_date = true                   # 自动将具有未来日期的帖子标记为草稿
 post_readtime = true                          # 显示阅读时间
@@ -199,6 +194,11 @@ pagination_url_format = "page/{page}"         # 分页URL格式
 # ===== 标签插件 =====
 [project.plugins.tags]
 
+# ===== 最小化插件 =====
+[project.plugins.minify]
+minify_html = true
+minify_css = true
+minify_js = true
 
 # ==========================================
 # Markdown 扩展配置 [Markdown Extensions]
@@ -217,20 +217,28 @@ permalink = true  # 固定标题位置为当前位置，显示 # 符号
 [project.markdown_extensions.pymdownx.arithmatex]
 generic = true
 [project.markdown_extensions.pymdownx.betterem]
-smart_enable = "false"
+smart_enable = false
 [project.markdown_extensions.pymdownx.caret]
 [project.markdown_extensions.pymdownx.details]
 [project.markdown_extensions.pymdownx.emoji]
 emoji_generator = "zensical.extensions.emoji.to_svg"
 emoji_index = "zensical.extensions.emoji.twemoji"
 [project.markdown_extensions.pymdownx.highlight]
+pygments_lang_class = true
+auto_title = false
+linenums = true
 [project.markdown_extensions.pymdownx.inlinehilite]
 [project.markdown_extensions.pymdownx.keys]
 [project.markdown_extensions.pymdownx.mark]
 [project.markdown_extensions.pymdownx.smartsymbols]
 [project.markdown_extensions.pymdownx.superfences]
+custom_fences = [
+  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" }
+]
 [project.markdown_extensions.pymdownx.tabbed]
 alternate_style = true
 [project.markdown_extensions.pymdownx.tasklist]
 custom_checkbox = true
 [project.markdown_extensions.pymdownx.tilde]
+[project.markdown_extensions.tables]
+[project.markdown_extensions.pymdownx.snippets]

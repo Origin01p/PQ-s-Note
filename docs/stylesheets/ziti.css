@@ -1,0 +1,96 @@
+/* 字体资源：
+https://fonts.zeoseven.com/ 
+https://chinese-font.netlify.app/zh-cn/fonts/hwmct/汇文明朝体
+*/
+
+/* 新方案：使用 jsDelivr CDN 的智能分包版本，只加载页面实际使用的汉字 */
+@import url('https://cdn.jsdelivr.net/npm/@callmebill/lxgw-wenkai-web@latest/style.css');
+
+body {
+  font-family: "LXGW WenKai", sans-serif;
+  font-weight: normal;
+}
+
+
+/* @import url('https://fontsapi.zeoseven.com/292/main/result.css');
+body {
+font-family: "LXGW WenKai";
+font-weight: normal;
+} */
+
+/* button.md-top {
+    font-family: LXGW WenKai;
+    font-size: 16px;
+    font-weight: lighter;
+} */
+
+/* 霞鹜文楷屏幕版*/
+/* @import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css');
+body {
+    font-family: "LXGW WenKai Screen";
+} */
+
+/* @import url("https://fontsapi.zeoseven.com/3/main/result.css");
+body {
+    font-family: "寒蝉全圆体";
+    font-weight: normal;
+} */
+
+/* 寒蝉正楷体 */
+/* @import url("https://fontsapi.zeoseven.com/5/main/result.css");
+body {
+    font-family: "ChillKai"; 
+    font-weight: normal;
+} */
+
+
+/* 朱雀仿宋体 */
+/* @import url("https://fontsapi.zeoseven.com/7/main/result.css");
+body {
+    font-family: "Zhuque Fangsong (technical preview)";  
+    font-weight: normal;
+} */
+
+/* JetBrains Maple Mono */
+/* @import url("https://fontsapi.zeoseven.com/521/main/result.css");
+body {
+    font-family: "JetBrains Maple Mono";
+    font-weight: normal;
+} */
+
+/* https://chinese-font.netlify.app/zh-cn/fonts/hwmct/汇文明朝体 */
+/* @import url('https://chinese-fonts-cdn.deno.dev/packages/hwmct/dist/%E6%B1%87%E6%96%87%E6%98%8E%E6%9C%9D%E4%BD%93/result.css');
+body {
+font-family: "Huiwen-mincho";
+}
+button.md-top {
+    font-family: "Huiwen-mincho";
+    font-size: 16px;
+    font-weight: lighter;
+} 
+
+
+
+/* @import url("https://fontsapi.zeoseven.com/256/main/result.css");
+body {
+    font-family: "Huiwen-mincho";
+    font-weight: normal;
+}
+button.md-top {
+    font-family: "Huiwen-mincho";
+    font-size: 16px;
+    font-weight: lighter;
+} */
+
+
+
+/* @import url("https://fontsapi.zeoseven.com/488/main/result.css");
+body {
+    font-family: "STDongGuanTi";
+    font-weight: normal;
+}
+button.md-top {
+    font-family: "STDongGuanTi";
+    font-size: 16px;
+    font-weight: lighter;
+} */
