@@ -10,7 +10,7 @@ title: Seminar & Project
 
 **数学和生物学类**：
 
-- [一类生态学复杂动力系统涌现现象的研究](../project/ecology.pdf)
+- [一类生态学复杂动力系统涌现现象的研究](../project/一类生态学复杂动力系统涌现现象的研究.pdf)
 
 **代数学和密码学类**：
 
@@ -20,6 +20,6 @@ title: Seminar & Project
 
 - [肝脏与胰腺医学影像中的人工智能应用](../project/ml.pdf)
 
-- [基于SIFT算法的特征点图像拼接](../project/sift.pdf)
+- [基于SIFT算法的特征点图像拼接](../project/图像拼接.pdf)
 
 - [银行客户认购产品预测](../project/yinhang1.pdf)
