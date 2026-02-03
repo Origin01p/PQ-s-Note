@@ -21,3 +21,5 @@ title: Seminar & Project
 - [肝脏与胰腺医学影像中的人工智能应用](../project/ml.pdf)
 
 - [基于SIFT算法的特征点图像拼接](../project/sift.pdf)
+
+- [银行客户认购产品预测](../project/yinhang1.pdf)
