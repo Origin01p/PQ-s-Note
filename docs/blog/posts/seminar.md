@@ -23,3 +23,5 @@ title: Seminar & Project
 - [基于SIFT算法的特征点图像拼接](../project/图像拼接.pdf)
 
 - [银行客户认购产品预测](../project/yinhang1.pdf)
+
+- [金融风险预测学习赛](../project/金融风险预测.pdf)
