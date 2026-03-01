@@ -42,14 +42,14 @@ nav = [
             { "概率论篇" = [
                 { "1.随机事件与概率" = "blog/class/pb_ch1.md" },
                 { "2.随机变量及其分布" = "blog/class/pb_ch2.md" },
-                { "3.多维随机变量及其分布" = "blog/class/pb_ch3.md" },
-                { "4.大数定律与中心极限定理" = "blog/class/pb_ch4.md" },
-                { "5.统计量及其分布" = "blog/class/pb_ch5.md" },
+                #{ "3.多维随机变量及其分布" = "blog/class/pb_ch3.md" },
+                #{ "4.大数定律与中心极限定理" = "blog/class/pb_ch4.md" },
+                #{ "5.统计量及其分布" = "blog/class/pb_ch5.md" },
             ]},
             { "统计学篇" = [
-                { "描述统计" = "blog/class/pb_ch2.md" },
-                { "抽样分布与参数估计" = "blog/class/pb_ch3.md" },
-                { "假设检验" = "blog/class/pb_ch4.md" },
+               # { "描述统计" = "blog/class/pb_ch2.md" },
+               # { "抽样分布与参数估计" = "blog/class/pb_ch3.md" },
+               # { "假设检验" = "blog/class/pb_ch4.md" },
             ]},
             { "问题汇总" = "blog/class/pb_question.md" },
         ]},
@@ -64,7 +64,7 @@ nav = [
         ]},
     ] },
     { "随笔" = [
-        { "大学回忆录" = "blog/essay/huiyilu.md" },
+        { "测试" = "blog/essay/huiyilu.md" },
     ] },
     { "档案" = [
         # "techhelp.md",
