@@ -6,6 +6,10 @@ title: Seminar & Project
 
 待续……
 
+## 简历 
+
+- [点击此处](../project/cvcn.pdf)
+
 ## 项目
 
 **数学和生物学类**：
