@@ -809,7 +809,7 @@ hr {
     ---
 
     - [AI网站](blog/posts/links_ai.md)
-    - [一些数学家的博客](blog/posts/links_math.md)
+    - [一些数学的网站](blog/posts/links_math.md)
     - [书目汇总](blog/posts/links_book.md)
     - [参与过的项目或研讨会](blog/posts/seminar.md) 
 
